@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pl" dir="ltr">
   <head>
-    <meta charset="urf-8">
+    <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-      Zawartość strony<hr>
+      Zawartość strony:<hr>
     <?php
       require '/3_1.php';
       include '/3_1.php';
