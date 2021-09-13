@@ -90,4 +90,24 @@ else
     echo "<br>Not Equal"; //wynik to "Not Equal" bo różne typy danych (int and double)
 }
 
+/*
+preinkrementacja ++$x
+postinkrementacja $x++
+predekrementacja --$x
+postdekrementacja $x--
+*/
+
+$x=1;
+echo $x; //1
+$x=$x++;
+echo $x; //1
+$x=++$x;
+echo $x; //2
+$y=++$x;
+echo $x; //3
+echo $y; //3
+$y=$x++;
+echo $x; //4
+echo "$y<br>"; //3
+
 ?>
